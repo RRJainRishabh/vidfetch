@@ -19,8 +19,8 @@ A terminal-based YouTube/Playlist/Channel downloader and video browser built wit
 ### 1. Clone or Download
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/RRJainRishabh/vidfetch.git
+cd vidfetch
 ```
 
 ### 2. Run the Script
