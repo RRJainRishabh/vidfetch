@@ -28,8 +28,8 @@ def create_venv():
 
 
 def update_dependencies():
-    print("[+] Updating yt-dlp...")
-    subprocess.run([PIP_BIN, "install", "--upgrade", "yt-dlp"])
+    print("[+] Updating yt-dlp and its dependencies safely...")
+    subprocess.run([PIP_BIN, "install", "--upgrade", "--upgrade-strategy", "only-if-needed", "yt-dlp[default,curl-cffi]"])
 
 
 def download_video():
